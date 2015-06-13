@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose readDependencies loading dependencies from c:\Users\Nic\desktop\orbital-app\package.json
+5 warn package.json orbital-app@1.0.0 No description
+6 verbose install where, deps [ 'c:\\Users\\Nic\\desktop\\orbital-app',
+6 verbose install   [ 'express', 'socket.io' ] ]
+7 verbose install where, peers [ 'c:\\Users\\Nic\\desktop\\orbital-app', [] ]
+8 verbose installManyTop reading for lifecycle c:\Users\Nic\desktop\orbital-app\package.json
+9 info preinstall orbital-app@1.0.0
+10 verbose installManyTop reading scoped package data from c:\Users\Nic\desktop\orbital-app\node_modules\ejs\package.json
+11 verbose installManyTop reading scoped package data from c:\Users\Nic\desktop\orbital-app\node_modules\express\package.json
+12 verbose installManyTop reading scoped package data from c:\Users\Nic\desktop\orbital-app\node_modules\html\package.json
+13 verbose installManyTop reading scoped package data from c:\Users\Nic\desktop\orbital-app\node_modules\socket.io\package.json
+14 info package.json html@0.0.10 license should be a valid SPDX license expression
+15 info package.json socket.io@1.3.5 No license field.
+16 verbose readDependencies loading dependencies from c:\Users\Nic\desktop\orbital-app\package.json
+17 verbose targetResolver reading package data from c:\Users\Nic\desktop\orbital-app\node_modules\ejs\package.json
+18 verbose targetResolver reading package data from c:\Users\Nic\desktop\orbital-app\node_modules\express\package.json
+19 verbose targetResolver reading package data from c:\Users\Nic\desktop\orbital-app\node_modules\html\package.json
+20 verbose targetResolver reading package data from c:\Users\Nic\desktop\orbital-app\node_modules\socket.io\package.json
+21 verbose targetResolver reading package data from c:\Users\Nic\desktop\orbital-app\node_modules\.bin\html\package.json
+22 verbose targetResolver reading package data from c:\Users\Nic\desktop\orbital-app\node_modules\.bin\html.cmd\package.json
+23 verbose already installed skipping socket.io@^1.3.5 c:\Users\Nic\desktop\orbital-app
+24 verbose already installed skipping express@^4.12.4 c:\Users\Nic\desktop\orbital-app
+25 silly install resolved []
+26 info build c:\Users\Nic\desktop\orbital-app
+27 info linkStuff orbital-app@1.0.0
+28 silly linkStuff orbital-app@1.0.0 has c:\Users\Nic\desktop as its parent node_modules
+29 verbose linkBins orbital-app@1.0.0
+30 verbose linkMans orbital-app@1.0.0
+31 verbose rebuildBundles orbital-app@1.0.0
+32 verbose rebuildBundles [ '.bin', 'ejs', 'express', 'html', 'socket.io' ]
+33 verbose rebuild bundle c:\Users\Nic\desktop\orbital-app\node_modules\ejs
+34 info build c:\Users\Nic\desktop\orbital-app\node_modules\ejs
+35 info preinstall ejs@2.3.1
+36 info linkStuff ejs@2.3.1
+37 silly linkStuff ejs@2.3.1 has c:\Users\Nic\desktop\orbital-app\node_modules as its parent node_modules
+38 verbose linkBins ejs@2.3.1
+39 verbose linkMans ejs@2.3.1
+40 verbose rebuildBundles ejs@2.3.1
+41 info install ejs@2.3.1
+42 info postinstall ejs@2.3.1
+43 verbose rebuild bundle c:\Users\Nic\desktop\orbital-app\node_modules\html
+44 info build c:\Users\Nic\desktop\orbital-app\node_modules\html
+45 info preinstall html@0.0.10
+46 info linkStuff html@0.0.10
+47 silly linkStuff html@0.0.10 has c:\Users\Nic\desktop\orbital-app\node_modules as its parent node_modules
+48 verbose linkBins html@0.0.10
+49 verbose link bins [ { html: './bin/html.js' },
+49 verbose link bins   'c:\\Users\\Nic\\desktop\\orbital-app\\node_modules\\.bin',
+49 verbose link bins   false ]
+50 verbose linkMans html@0.0.10
+51 verbose rebuildBundles html@0.0.10
+52 verbose rebuildBundles [ 'concat-stream', 'glob' ]
+53 verbose stack Error: EBUSY, open 'c:\Users\Nic\desktop\orbital-app\node_modules\.bin\html.cmd'
+53 verbose stack     at Error (native)
+54 verbose cwd c:\Users\Nic\desktop\orbital-app
+55 error Windows_NT 6.3.9600
+56 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+57 error node v0.12.4
+58 error npm  v2.10.1
+59 error path c:\Users\Nic\desktop\orbital-app\node_modules\.bin\html.cmd
+60 error code EBUSY
+61 error errno -4082
+62 error EBUSY, open 'c:\Users\Nic\desktop\orbital-app\node_modules\.bin\html.cmd'
+63 error If you need help, you may report this error at:
+63 error     <https://github.com/npm/npm/issues>
+64 verbose exit [ -4082, true ]
