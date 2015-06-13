@@ -1,7 +1,7 @@
 var express = require('express');
 var path = require('path');
 var app = express();
-
+var port = process.env.PORT || 8080;
 //configure app
 
 
@@ -31,6 +31,6 @@ app.get('/matched',function(req,res){
 });
 
 
-app.listen(1337,function(){
-	console.log('ready on port 1337');
+app.listen(port,function(){
+	console.log('ready on port 8080');
 });
